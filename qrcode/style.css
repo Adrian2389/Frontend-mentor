@@ -7,9 +7,13 @@ body {
  width: 100%;
  min-height: 100vh;
  background-color: lightgray;
+
 }
 
 main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
      width: 400px;
      position: absolute;
      top: 50%;
@@ -64,7 +68,5 @@ section > p {
   section > h2, p {
     font-size: 18px;
   }
-  section > p {
-    fon
+ 
   }
-}
